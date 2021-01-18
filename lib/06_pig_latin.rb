@@ -5,7 +5,7 @@ def translate(str)
 
 	else
 
-		str = str.split(/([aeiou]+)/).delete.first
+		str = str.split(/([aeiou]+)/)
 		
 end
 end
