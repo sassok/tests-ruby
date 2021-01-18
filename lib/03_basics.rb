@@ -28,13 +28,9 @@ def array_42(array)
 end
 
 def magic_array(array)
-	x = 0
-	y = 0
-	s = 0
-
 
 	array.delete_if{|x| x % 3 == 0}.each do |y|
-		
+
 	end
 
 
