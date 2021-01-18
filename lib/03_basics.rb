@@ -28,12 +28,5 @@ def array_42(array)
 end
 
 def magic_array(array)
-
-	array.delete_if{|x| x % 3 == 0}.each do |y|
-
-	end
-
-
-	
-
-end 
+	array.flatten.sort.uniq.map!{|x| x*2}.delete_if{|x| x % 3 == 0}
+end
